@@ -14,13 +14,16 @@ new	Swiper('.swiper-container',{
 		delay:3000,
 	},
 	breakpoints:{
-320:{
+370:{
 	slidesPerView:1,
+	},
+570:{
+	slidesPerView:2,
 	},	
-480:{
+800:{
 	slidesPerView:3,
 	},
-992:{
+1100:{
 	slidesPerView:4,
 	}
 	},
@@ -28,8 +31,28 @@ new	Swiper('.swiper-container',{
 $(document).ready(function(){
 	$('.slideyml').slick({
 		dots:true,
-		slidesToShow: 1,
+		slidesToShow: 3,
+		slidesToScroll: 2,
 		autoplay: true,
 		autoplaySpeed: 2000,
+		responsive: [
+			{
+			  breakpoint: 900,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2
+			  }
+			},
+			{
+			  breakpoint: 670,
+			  settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				dots:false,
+			  }
+			}
+		  ],
+		  appendArrows:$('.slide__switch'),
+		  appendDots:$('.slide__switch'),
 	});
   });

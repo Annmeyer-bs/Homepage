@@ -1,5 +1,7 @@
 <div class="containeer__you-may-like">
-	<h2>You may like</h2>
+	<div class="contyml">
+	<div class="yml"><h2>You may like</h2></div>
+	<div class="slide__switch"></div></div>
 	<div class="slideyml">
 		<div class="product__card1">
 			<div class="product__card">
@@ -43,11 +45,12 @@
 					<p>A shiny dress in the style of Lady Gaga, for bright events and cool parties…</p>
 					<div class="product__card-text2">
 						<div class="product__card-price">
-					<h3>$</h3>
-					<h2>540</h2>
+							<h3>$</h3>
+							<h2>540</h2>
+						</div>
+						<button	class="btncard">Shop Now</button>
+					</div>
 				</div>
-					<button	class="btncard">Shop Now</button>
-				</div></div>
 			</div>
 		</div>
 		<div class="product__card4">
