@@ -527,21 +527,30 @@ footer{
 
 .slide__switch	.slick-dots li.slick-active	button{
 	position: relative;
-	border: 1px solid #1B2437;
-	background-color: rgb(255 255 255 /	0%);
-	width: 10px;
-	height: 10px;
-	
-}
-.slide__switch	.slick-dots li.slick-active	button::before{
-	position: absolute;
 	border-radius: 50%;
-	top:calc(50%	-	8px);
-	left:calc(50%	-	8px);
-	border: 2px solid #1B2437;
-	background-color: rgb(255 255 255 /	0%);
+	background-color: black;
+	border: 2px solid rgb(255 255 255 /	0%);
+	width: 8px;
+	height: 8px;
+}
+.slide__switch	.slick-dots li.slick-active	button:before{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	opacity: 40%;
+	background-color: black;
 	width: 16px;
 	height: 16px;
+}
+.slide__switch	.slick-dots li.slick-active	button:after{
+	position: absolute;
+	border-radius: 50%;
+	top:5px;
+	left:5px;
+	background-color: rgb(27, 36, 55, 1);
+	width: 10px;
+	height: 10px;
 }
 
 .slide__switch	.slick-dots li button{
@@ -596,12 +605,13 @@ footer{
 			margin: 10px	0;
 		}
 }
-@media(max-width:640px){
+@media(max-width:740px){
 	.container{
 		max-width: 100%;}
 		.container__form-temp{
-			margin: 0;
+			margin: 0	auto;
 		}
+		
 }
 @media(max-width:450px){
 	.container{
@@ -609,3 +619,4 @@ footer{
 	
 	
 }
+/*--------mobile-------------*/
