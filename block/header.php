@@ -13,21 +13,20 @@
   </div>
   <div class="searsh__basket">
     <i class="fas fa-search"></i>
-    <a class="basket-item" href="" ><img src="img/c.png" alt=""></a>
+    <a class="basket-item" href="" ><i class="fas fa-shopping-bag"></i></a>
   </div>
 </div>
 <nav	class="menu">	
   <ul	class="menu__list">
     <li><a href=""	class="menu__link">Home</a></li>
-    <li><a href=""	class="menu__link2">Shop<img src="img/arrow_small.png" alt=""></a>  </li>
-      <div class="menulink__cours">
-        <ul>
+    <li class="down"><a href=""	class="menu__link2">Shop<i class="fas fa-angle-down"></i></a>  
+    <ul class="drop__down">
           <li><a href=""	class="menu__courseslink">Louis Vouiton</a></li>
           <li><a href=""	class="menu__courseslink">Gucci</a></li>
           <li><a href=""	class="menu__courseslink">Valentino</a></li>
           <li><a href=""	class="menu__courseslink">Givenchy</a></li>
         </ul>
-      </div>
+  </li>
     <li><a href=""	class="menu__link">Blog</a></li>
     <li><a href=""	class="menu__link">Contact</a></li>
   </ul>
