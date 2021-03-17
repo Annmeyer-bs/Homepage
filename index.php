@@ -5,7 +5,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<title>Document</title>
 </head>
 <body>	
@@ -29,7 +28,7 @@ people’s fashion taste. </p>
 	</div>
 	<?php	require	"block/footer.php";	?>
 </div>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	
 	<script src="https://kit.fontawesome.com/e552c67050.js" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>

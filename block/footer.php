@@ -48,9 +48,9 @@ aesthetic expression at a particular time, place and in a specific context, espe
     <p>© Clay Shop all rights reserved</p>
       <div class="social-networks-block">
         <div class="social__wrapper">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-facebook-f"></i>
+        <a href=""	class="fab"><i class="fab fa-instagram"></i></a>
+        <a href=""	class="fab"> <i class="fab fa-twitter"></i></a>
+        <a href=""	class="fab">  <i class="fab fa-facebook-f"></i></a>
         </div>
       </div> 
   </div>
