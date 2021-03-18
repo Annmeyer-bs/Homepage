@@ -16,6 +16,9 @@
   <a href=""	class="fab"><i class="fas fa-shopping-bag"></i></a>
   </div>
 </div>
+<div class="header__burger">
+  <span></span>
+</div>
 <nav	class="menu">	
   <ul	class="menu__list">
     <li><a href=""	class="menu__link">Home</a></li>
