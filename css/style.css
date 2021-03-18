@@ -616,6 +616,7 @@ footer{
 	border: 1px solid rgba(27, 36, 55, 1);
 	border-radius: 16px;
 }
+.slide__switch	.slick-dots li.previous	button,
 .slide__switch	.slick-dots li.slick-active	+	li	>	button{
 	background-color: rgba(27, 36, 55, 0.6);	
 }
