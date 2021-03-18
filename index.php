@@ -13,11 +13,13 @@
 	<div class="container__form">
 		<div class="container__banner">
 			<div class="container__banner-text">
+				<div class="container__banner-text-title">
 				<a href="">Admire Stylish Dresses & Looks</a>
 				<p>If we wanted to build a human-level tool to offer 
 automated outfit advice, we needed to understand 
 people’s fashion taste. </p>
 				<button>Show More</button>
+				</div>
 			</div>
 		</div>
 		<div class="container__form-temp">

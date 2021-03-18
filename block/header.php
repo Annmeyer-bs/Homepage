@@ -22,7 +22,7 @@
 <nav	class="menu">	
   <ul	class="menu__list">
     <li><a href=""	class="menu__link">Home</a></li>
-    <li class="down"><a href=""	class="menu__link2">Shop<i class="fas fa-angle-down"></i></a>  
+    <li class="down"><a href="shop.php"	class="menu__link2">Shop<i class="fas fa-angle-down"></i></a>  
     <ul class="drop__down">
           <li><a href=""	class="menu__courseslink">Louis Vouiton</a></li>
           <li><a href=""	class="menu__courseslink">Gucci</a></li>

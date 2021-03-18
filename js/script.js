@@ -24,9 +24,6 @@ $(document).ready(function(){
 		  appendArrows:$('.slider-pl'),
 		  appendDots:$('.slider-pl'), 
 	});
-	$('.slider-pl').on('beforeChange', function(e){
-		console.log($(".container__product-landacape .slick-dots .slick-active"))
-	});
   });
   $(document).ready(function(){
 	$('.slideyml').slick({
@@ -43,19 +40,62 @@ $(document).ready(function(){
 			  }
 			},
 			{
-			  breakpoint: 670,
+			  breakpoint: 740,
 			  settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
+				slidesToShow: 2,
+				slidesToScroll: 2,
 				dots:false,
 			  }
-			}
+			},
+			{
+				breakpoint: 620,
+				settings: {
+				  slidesToShow: 1,
+				  slidesToScroll: 1,
+				  dots:false,
+				}
+			  }
 		  ],
 		  appendArrows:$('.slide__switch'),
 		  appendDots:$('.slide__switch'),
 	});
-	$('.slideyml').on('beforeChange', function(e){
-		console.log($(".containeer__you-may-like .slick-dots .slick-active"))
-	});
   });
-  
+  jQuery('.slider-pl').on('beforeChange', function(e, slick, currentSlide, nextSlide){
+	jQuery(".container__product-landacape .slick-dots > li").removeClass('previous')  
+	if (Math.abs(nextSlide - currentSlide) == 1) {
+		direction = (nextSlide - currentSlide > 0) ? "left" : "right";
+	  }
+	  else {
+		direction = (nextSlide - currentSlide > 0) ? "right" : "left";
+	  }
+	if(direction === "right"){
+		if(nextSlide !== 2){
+			jQuery(".container__product-landacape .slick-dots li:last-child").prev().addClass("previous")
+		}else{
+		 jQuery(".container__product-landacape .slick-dots .slick-active").addClass("previous");
+		}
+	}});
+  jQuery('.slideyml').on('beforeChange', function(e, slick, currentSlide, nextSlide){
+	jQuery(".containeer__you-may-like .slick-dots > li").removeClass('previous')  
+	if (Math.abs(nextSlide - currentSlide) == 1) {
+		direction = (nextSlide - currentSlide > 0) ? "left" : "right";
+	  }
+	  else {
+		direction = (nextSlide - currentSlide > 0) ? "right" : "left";
+	  }
+	if(direction === "right"){
+		if(nextSlide !== 2){
+			jQuery(".containeer__you-may-like .slick-dots li:last-child").prev().addClass("previous")
+		}else{
+		 jQuery(".containeer__you-may-like .slick-dots .slick-active").addClass("previous");
+		}
+	}});
+	/*burger*/
+	$(document).ready(function(){
+		$('.header__burger').click(function(event){
+			$('.header__burger,.menu').toggleClass('active');
+			$('body').toggleClass('lock');
+		});
+	});
+	/*adaptive	menu*/
+	

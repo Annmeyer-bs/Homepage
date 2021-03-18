@@ -1,5 +1,7 @@
 <div class="container__women-category">
+	<div class="my-row">
 	<div class="container__women-category-collection">
+		<div class="container__women-category-collection-img"></div>
 		<div class="container__women-category-collection-text">
 			<h2>Women <br>Collection</h2>
 			<h3>Spring 2020</h3>
@@ -27,5 +29,6 @@
 				<h2>Denim Jackets</h2>
 			</div>
 		</div>
+	</div>
 	</div>
 </div>
