@@ -75,9 +75,7 @@ header{
 	top: 0;
 	left: 0;
 	width: 100%;
-
 	background: #FFFFFF;
-	
 }
 
 .header-block__logo	img{
@@ -87,7 +85,6 @@ header{
 	position: fixed;
 	top: 0;
 	left: 0;
-
 	margin: 20px;
 	padding:0 20px	0	40px;
 	display: flex;
@@ -172,7 +169,6 @@ nav	i.fas.fa-angle-down{
 .container__banner{
 	color: white;
 	min-height: 540px;
-	max-width: 1364px;
 	margin: 0	auto;
 	background:url(../img/banner.png) top	center	no-repeat;
 	background-size: cover;
@@ -211,19 +207,20 @@ padding:124px;
 	background-color: rgb(255 255 255 /	0%);
 }
 .container__form-temp{
-	margin: 0	113px;
+	margin: 0	auto;
+	max-width: 1140px;
 }
 .container__women-category,.container__product-landacape,.containeer__you-may-like{
 	margin: 40px	auto;
 }
 .container__women-category{
-	max-width: 1146px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: normal;
 }
+
 .container__women-category	h2{
 	font-size: 34px;
 	line-height: 51px;
@@ -266,7 +263,7 @@ padding:124px;
 	height: 100%;
 	max-width: 558px;
 	width: 100%;
-	margin: 0	20px;
+	margin-left: 20px;
 }
 .container__women-category-categ-dress:last-child{
 margin-right: 0;	
@@ -321,7 +318,7 @@ span{
 	max-height: 208px;
 	height: 100%;
 	padding: 32px;
-	margin: 20px	0;
+	margin-top: 20px;
 	border-radius: 16px;
 }
 
@@ -349,7 +346,8 @@ footer{
 	margin-right:	72px;
 }
 .container__footer{
-	padding: 40px	113px	43px	113px;
+	margin: 40px	113px;
+    max-width: 1140px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -393,12 +391,14 @@ footer{
 
 
 /*-------p-l-slider-------------*/
-
+.container__product-landacape{
+	margin: 0	auto;
+}
 .slider-pl{
 	max-width: 1140px;
 	background: #FFFFFF;
 	border-radius: 16px;
-	padding: 24px	124px	60px	124px;
+	padding: 0	124px	60px;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -410,7 +410,7 @@ footer{
 	width: 172px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 }
 .slider-image	a{
@@ -498,11 +498,21 @@ footer{
 	flex-direction: column;
 	height: 560px;
 }
+.slick-active	.product__card:first-child{
+	margin-left: 0;
+}
+.slick-active	.product__card:last-child{
+	margin: 0;
+}
 .product__card-img{
 	border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 	overflow: hidden;
 	width: 100%;
+}
+.product__card-img	img{
+	width: 100%;
+	max-width: 100%;
 }
 
 .product__card-text{
@@ -562,7 +572,7 @@ footer{
 }
 .containeer__you-may-like{
 	position: relative;
-	max-width: 1146px;
+	max-width: 1140px;
 	margin: 20px	auto;
 }
 .slide__switch{
@@ -651,17 +661,20 @@ footer{
 .slideyml{
 	display: flex;
 	align-items: center;
+
 }
 /*--------braikpoint-------------*/
 @media(max-width:900px){
 	.container{
 		max-width: 100%;}
-		.container__footer{
-			padding: 15px;
+		.container__footer {
+			margin: 10px;
+			max-width: 1140px;
 		}
 		.container__women-category{
 			flex-wrap: wrap;
-			
+			margin: 0	auto;
+		
 		}
 		.container__women-category-categ{
 			flex: 1	1	100%;
@@ -671,8 +684,10 @@ footer{
 @media(max-width:740px){
 	.container{
 		max-width: 100%;}
-		.container__form-temp{
-			margin: 0	auto;
+		.container__footer {
+			
+		flex-wrap: wrap;
+		
 		}
 	.header__burger{
 		display: block;
@@ -710,6 +725,7 @@ footer{
 		display: block;}
 		
 	.menu{
+		display: none;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -717,6 +733,12 @@ footer{
 		height: 100%;
 		background: #FFFFFF;
 		border-radius: 16px;
+	}
+	.copyrights{
+		padding: 5px;
+	}
+	.copyrights	p{	
+		font-size: 10px;
 	}
 }
 @media(max-width:450px){
