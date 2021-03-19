@@ -280,6 +280,7 @@ nav	i.fas.fa-angle-down{
 	flex-wrap: wrap;
 	justify-content: center;
     margin: 0 -15px;
+
 }
 .container__women-category-categ{
 	padding-right: 0;
@@ -297,11 +298,12 @@ margin-right: 0;
 	display: flex;
 	justify-content: center;
 	max-width: 558px;
+	width: 100%;
 	}
 .container__women-category-categ-bestsel{
 	background: #EFEFF4;
 	height: 208px;
-	max-width: 267px;
+	max-width: 375px;
 	width: 100%;
 	border-radius: 16px;
 
@@ -312,17 +314,17 @@ margin-right: 0;
 .container__women-category-categ-dress{
 	background: url(../img/dr.png)center	no-repeat;
 	height: 208px;
-	max-width: 267px;
+	max-width: 375px;
 	width: 100%;
 	border-radius: 16px;
 	color: white;
-	padding: 32px;
 	margin: 0	20px;
 }
 .container__women-category-categ-dress-text{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding: 32px;
 }
 .container__women-category-categ	button{
 	max-width: 72px;
@@ -343,7 +345,6 @@ span{
 	width: 100%;
 	max-height: 208px;
 	height: 100%;
-	padding: 32px;
 	margin-top: 20px;
 	border-radius: 16px;
 }
@@ -707,12 +708,15 @@ footer{
 			max-width: 1140px;
 		}
 		
-		.container__women-category	.my-row	>	div{
-			width: 100%;
-			position: relative;
-			padding: 0	15px;
-			max-width: 600px;
-		}
+	.container__women-category	.my-row	>	div{
+	width: 100%;
+    position: relative;
+    padding: 0 15px;
+    max-width: 600px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    height: 460px;
+	}
 }
 @media(max-width:740px){
 	.container{
@@ -828,10 +832,37 @@ footer{
 		font-size: 10px;
 	}
 }
-@media(max-width:450px){
+@media(max-width:490px){
 	.container{
 	max-width: 100%;}
-	
-	
+	.container__women-category .my-row > div {
+		width: 100%;
+		position: relative;
+		padding: 0 15px;
+		max-width: 350px;
+		/* display: flex; */
+		/* justify-content: space-around; */
+		height: 460px;
+	}
+	.container__women-category-categ{
+		width: 900px;
+	}
+	.container__women-category-categ-gr {
+		flex-wrap: wrap;
+		height: 470px;
+		margin: 0	auto;
+		width: 100%;
+	}
+	.container__women-category-categ-dress{
+		margin-left: 0;
+		padding: 0;
+	}
+	.container__women-category-categ-jacket {
+		max-height: 470px;
+		width: 100%;
+	}
+	.slider-pl {
+		padding: 0	25px ;
+	}
 }
 /*--------mobile-------------*/

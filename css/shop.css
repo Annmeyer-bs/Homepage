@@ -364,7 +364,7 @@ footer{
 .copyrights{
 	padding:0	122px	0 113px;
 	display: flex;
-	height: 72px;
+	height: 50px;
 	align-items: center;
 	justify-content: space-between;
 	background-color: #EFEFF4;
@@ -375,141 +375,17 @@ footer{
 	color: black;
 	padding:0 20px;
 }
-
-
-/*-------p-l-slider-------------*/
-
-.swiper-container{
-	max-width: 1146px;
-	background: #FFFFFF;
-	border-radius: 16px;
-	padding: 24px	124px	60px	124px;
-}
-.swiper-wrapper{
-	display: flex;
-	align-items: center;
-	margin: 30px;
-}
 .menu__email{
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
-.slider-image	a{
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	text-align: center;
-	color: #1B2437;
-}
-.slider-image-img{
-	width :156px;
-	height :127px;	
-	align-items: center;
-}
-
-.swiper-button-prev:after,	.swiper-button-next:after{	
-	color: #D1D1D6;
-	font-size: 2px;
-}
-/*-------y-m-l-slider-------------*/
-.product__card{
-	background: #FFFFFF;
-	border-radius: 16px;
-	margin:0 12px;
-	max-width: 366px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	height: 100%;
-}
-.product__card-img{
-	height: 280px;
-	max-width: 360px;
-}
-
-.product__card-text{
-padding: 24px;
-}
-.product__card-text2{
-	margin-top: 90px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.product__card-price{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.product__card-price	h3{
-	font-size: 24px;
-}
-.product__card-text2	button{
-	height: 52px;
-width: 160px;
-color: #EDA3B5;
-background-color: rgb(255 255 255 /	0%);
-border: 2px solid #EDA3B5;
-box-sizing: border-box;
-border-radius: 16px;
-}
-.containeer__you-may-like{
-	position: relative;
-	max-width: 1146px;
-	margin: 20px	auto;
-}
 .inp{
 	height: 44px;
 	width: 267px;
 	border: 2px solid rgba(229, 229, 234, 1);
 	border-radius: 8px;
-}
-.slideyml	.slick-arrow.slick-prev{
-	background: url(../img/arrow_btn.png)	0	0	no-repeat;
-	margin-right: 130px;
-}
-.slideyml	.slick-arrow.slick-next{
-	background: url(../img/arrow_btn-n.png)0	0	no-repeat;
-}
-.slideyml	.slick-dots{
-	display: flex;
-	align-items: center;
-}
-
-.slideyml	.slick-dots li.slick-active	button{
-	border: 1px solid #1B2437;
-	width: 10px;
-	height: 10px;
-}
-
-.containeer__you-may-like	h2{
-	font-family: 'Playfair Display';
-	font-style: normal;
-	font-weight: normal;
-	font-size: 34px;
-	line-height: 45px;
-	letter-spacing: 0.4px;
-	color: #1B2437;
-}
-.product__card-text	p{
-	font-family: 'Mulish';
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
-	color: #8E8E93;
-}
-@media(max-width:450px){
-	.container{
-	max-width: 100%;}
-	
-}
-.slick-list {
-	overflow: hidden;
 }
 
 /*--------braikpoint-------------*/
