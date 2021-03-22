@@ -12,8 +12,8 @@
 <div class="container__form">
 	<?php	require	"block/sh_header.php";	?>
 	<div class="container__form">
-		
-		
+	<?php	require	"block/sh_filter.php";	?>	
+	<?php	require	"block/sh_catalog.php";	?>	
 		
 	</div>
 	<?php	require	"block/sh_footer.php";	?>

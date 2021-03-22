@@ -5,12 +5,19 @@ $(document).ready(function(){
 		slidesToScroll: 2,
 		responsive: [
 			{
-			  breakpoint: 900,
+			  breakpoint: 1030,
 			  settings: {
-				slidesToShow: 2,
-				slidesToScroll: 2
+				slidesToShow: 3,
+				slidesToScroll: 3
 			  }
 			},
+			{
+				breakpoint: 900,
+				settings: {
+				  slidesToShow: 2,
+				  slidesToScroll: 2
+				}
+			  },
 			{
 			  breakpoint: 670,
 			  settings: {
@@ -39,7 +46,7 @@ $(document).ready(function(){
 			  }
 			},
 			{
-			  breakpoint: 740,
+			  breakpoint: 741,
 			  settings: {
 				slidesToShow: 2,
 				slidesToScroll: 2,

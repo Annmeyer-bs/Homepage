@@ -4,6 +4,9 @@
     <a href=""	class="header__logo">
       <img src="img/1.png"></a>
   </div>
+  <div class="header__burger">
+  <span></span>
+</div>
   <nav	class="menu">	
   <ul	class="menu__list">
     <li><a href=""	class="menu__link">Home</a></li>

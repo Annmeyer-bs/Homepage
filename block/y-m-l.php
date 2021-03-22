@@ -12,8 +12,9 @@
 				<div class="product__card-img">
 					<img src="img/c1.png" alt="">
 				</div>
-				<div class="product__card-text">
-					<h2>Women's black	vest Gucci</h2>
+				<div class="product__card-title">
+					<div class="product__card-text">
+						<h2>Women's black	vest Gucci</h2></div>
 					<div class="product__card-text2">
 						<div class="product__card-price">
 							<h3>$</h3>

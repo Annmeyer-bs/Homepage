@@ -27,7 +27,7 @@
       <ul	class="menu__email">
         <li><a href=""	class="menu__courseslink">Get updates about style</a></li>
         <li class="inp"><input type="email"  placeholder="Type your email…">
-        <button></button>
+        <button class="btn-email"></button>
         </li>
       </ul>
     </div>

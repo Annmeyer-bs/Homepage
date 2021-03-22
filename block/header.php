@@ -21,9 +21,11 @@
 </div>
 <nav	class="menu">	
   <ul	class="menu__list">
+    <span></span>
     <li><a href=""	class="menu__link">Home</a></li>
-    <li class="down"><a href="shop.php"	class="menu__link2">Shop<i class="fas fa-angle-down"></i></a>  
+    <li class="down"><a href="shop.php"	class="menu__link2">Shop </a>  <div class="down-a"></div>
     <ul class="drop__down">
+      <li></li>
           <li><a href=""	class="menu__courseslink">Louis Vouiton</a></li>
           <li><a href=""	class="menu__courseslink">Gucci</a></li>
           <li><a href=""	class="menu__courseslink">Valentino</a></li>
