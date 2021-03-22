@@ -9,6 +9,7 @@
       </ul>
     </nav>
   </div>
+  <div class="container__foote">
   <div class="container__footer">
     <div class="menu__info">  
       <div class="header-block__logo">
@@ -43,8 +44,11 @@ aesthetic expression at a particular time, place and in a specific context, espe
         <li><a href=""	class="menu__courseslink">Privacy Policy</a></li>
       </ul>
     </div>
+    </div>
   </div>
+  <div class="copyrights__container">
   <div class="copyrights">
+  <div class="copyrights-title">
     <p>© Clay Shop all rights reserved</p>
       <div class="social-networks-block">
         <div class="social__wrapper">
@@ -52,6 +56,8 @@ aesthetic expression at a particular time, place and in a specific context, espe
         <a href=""	class="fab"> <i class="fab fa-twitter"></i></a>
         <a href=""	class="fab">  <i class="fab fa-facebook-f"></i></a>
         </div>
-      </div> 
+        </div>
+      </div>  
+    </div> 
   </div>
 </footer>
