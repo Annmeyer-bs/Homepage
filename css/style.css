@@ -846,7 +846,7 @@ text-decoration-line: line-through;}
     height: 20px;
 	position: absolute;
     top: 20%;
-    right: 5%;
+    right: 20px;
     margin: 5px;
 	}
 	.header__burger.active	span{

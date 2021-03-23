@@ -1,4 +1,5 @@
 <footer class="footer">
+<div class="container">
   <div class="container__footer">
     <div class="menu__inter"><p class="mc__block">Hot links</p>	
       <ul	class="menu__courses">
@@ -32,7 +33,10 @@
       </ul>
     </div>
   </div>
+  </div>
   <div class="copyrights">
+  <div class="container-fluid">
+  <div class="container">
     <p>© Clay Shop all rights reserved</p>
       <div class="social-networks-block">
         <div class="social__wrapper">
@@ -41,5 +45,7 @@
           <i class="fab fa-facebook-f"></i>
         </div>
       </div> 
+  </div>
+  </div>
   </div>
 </footer>
