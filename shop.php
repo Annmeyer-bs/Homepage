@@ -10,14 +10,13 @@
 	<title>Document</title>
 </head>
 <body>	
-
-
 	<?php	require	"block/sh_header.php";	?>
-	<div class="container">
-		<?php	require	"block/sh_filter.php";	?>	
-		<?php	require	"block/sh_catalog.php";	?>	
-	</div>
-
+		<div class="container">
+			<div class="form">
+				<?php	require	"block/sh_filter.php";	?>	
+				<?php	require	"block/sh_catalog.php";	?>	
+			</div>
+		</div>
 	<?php	require	"block/sh_footer.php";	?>
 
 	<script src="https://kit.fontawesome.com/e552c67050.js" crossorigin="anonymous"></script>
