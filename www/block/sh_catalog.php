@@ -1,5 +1,4 @@
 <div class="container__catalog">
-	<div class="container">
 		<div class="row	g-4	row-cols-3">
 			<div class="col">
 				<div class="product">
@@ -132,5 +131,5 @@ Off- white</h2>
   				<li class="next"><a href="#"><img src="img/arrow_outline_right.svg" alt=""></a></li>
 			</ul>
 		</div>
-	</div>
+
 </div>

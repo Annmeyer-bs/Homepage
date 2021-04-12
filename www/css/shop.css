@@ -659,8 +659,16 @@ ul.color li{
 }
 
 .container__filter	.row	div:first-child{
-	padding-left: 0;
+	padding-right: 0;
 }
 .container__filter	.row	div:last-child{
-	padding-right:  0;
+	padding:  0;
+	
 }
+.dropdown-menu.size {
+	position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(790px, 169.5px, 0px);
+}
+

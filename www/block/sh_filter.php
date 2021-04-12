@@ -43,8 +43,8 @@
 				</div>
 				<div class="col-3">
 				<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
-				</button>
-    <ul class="dropdown-menu	size" aria-labelledby="dropdownMenuReference">
+				</button> 
+				<ul class="dropdown-menu	size" aria-labelledby="dropdownMenuReference">
 					<li><input type="checkbox" id="checkboxOne" value="XS"><label for="checkboxOne">XS</label></li>
 					<li><input type="checkbox" id="checkboxTwo" value="S" checked><label for="checkboxTwo">S</label></li>
 					<li><input type="checkbox" id="checkboxThree" value="M" checked><label for="checkboxThree">M</label></li>
@@ -78,5 +78,13 @@
 				</div>
 			</div>
 		</div>
+			<div class="col-1">
+				<div class="filter-inner__content">
+                    <div class="filter-content__item">
+                        <button onclick="gridView()"><i class="fa fa-th-large"></i></button>
+                        <button onclick="listView()"><i class="fa fa-bars"></i></button>
+                    </div>
+                </div>
+			</div>
 	</div>
 </div>
